@@ -1,6 +1,6 @@
 // Fonte única dos dados do convite. Edite aqui e o site inteiro atualiza.
 
-// ⚠️ TROQUE ESTES DOIS ITENS ANTES DE PUBLICAR:
+// ⚠️ Confira este número antes de publicar:
 const WHATSAPP_NUMBER = '5561985997985' // seu número: 55 + DDD + número (só dígitos)
 
 const startISO = '2026-11-14T19:00:00-03:00' // sábado, 19h (Brasília)
@@ -26,7 +26,7 @@ export const invite = {
 
   calendarUrl:
     'https://calendar.google.com/calendar/render?action=TEMPLATE' +
-    `&text=${encodeURIComponent('Baile de Máscaras –  do Arthur Fernandes')}` +
+    `&text=${encodeURIComponent('Baile de Máscaras do Arthur')}` +
     `&dates=${toCal(startISO)}/${toCal(endISO)}` +
     `&details=${encodeURIComponent('Máscara obrigatória. O endereço será enviado pelo WhatsApp após a confirmação.')}`,
 
