@@ -14,7 +14,7 @@ export default function Venue() {
           Confirme sua presença pelo WhatsApp para receber o endereço e os detalhes do baile.
         </p>
         <p className="mt-6 font-display text-xl tracking-[0.12em] text-gold-light">{invite.dateShort} <span className="whitespace-nowrap">· {invite.timeLabel}</span></p>
-        <div className="mt-10"><GoldButton solid href="#confirmar" icon={<CheckCircle2 size={16} />}>CONFIRMAR PRESENÇA</GoldButton></div>
+        <div className="mt-10"><GoldButton solid href="#confirmar" icon={<CheckCircle2 size={16} />}>CONFIRMAR PRESENÇA!</GoldButton></div>
       </Reveal>
     </section>
   )
