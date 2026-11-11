@@ -13,7 +13,7 @@ export const invite = {
   tagline: 'Uma noite para ser lembrada.',
   host: 'ARTHUR FERNANDES',
   hostFirstName: 'Arthur',
-  lead: 'Você está convidado para o aniversário de',
+  lead: 'Você está convidado para o baile de',
   subtitle: 'Uma noite de mistério, elegância e celebração.',
 
   weekday: 'Sábado',
@@ -26,7 +26,7 @@ export const invite = {
 
   calendarUrl:
     'https://calendar.google.com/calendar/render?action=TEMPLATE' +
-    `&text=${encodeURIComponent('Baile de Máscaras – Aniversário do Arthur Fernandes')}` +
+    `&text=${encodeURIComponent('Baile de Máscaras –  do Arthur Fernandes')}` +
     `&dates=${toCal(startISO)}/${toCal(endISO)}` +
     `&details=${encodeURIComponent('Máscara obrigatória. O endereço será enviado pelo WhatsApp após a confirmação.')}`,
 
